@@ -157,10 +157,10 @@ const handleSubmit = async (event: { preventDefault: () => void; }) => {
           </ul>
       </div>
       </div>
-        <div className="flex justify-center items-center bg-[#edebe4] py-16 px-4 mt-6 text-xs">
+        <div className="flex justify-center items-center bg-[#edebe4] py-10 px-4 mt-6 text-xs">
           <form>
           <span>
-          <div className='flex-col w-full mx-auto space-x-4 space-y-10 text-xs'>
+          <div className='flex-col w-full mx-auto space-x-4 space-y-10 text-xs py-3'>
           <Link href="/" legacyBehavior><a className="hover:text-gray-500">About Wells Fargo |</a></Link>
           <Link href="/about" legacyBehavior><a className="hover:text-gray-500">Online Access Agreement |</a></Link>
           <Link href="/contact" legacyBehavior><a className="hover:text-gray-500">Privacy, Cookies, Security & Legal |</a></Link>
